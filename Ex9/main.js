@@ -19,7 +19,7 @@ class Pokemon {
       console.log(this.name +'a attaqué' + pokemon.name+' pour '+ degat + 'de degats, il lui reste'+ pokemon.hp +' pv.');
     } else{
       console.log(this.name+' a raté son attaque !');
-    } //fin de la partie rajouté après correction
+    } //fin de la partie rajouté après correction.
   }
 }
 
@@ -33,11 +33,11 @@ while (dracolosse.hp > 0 && carchacrok.hp > 0) {
     console.log(carchacrok.name + "est mort");
     break;
   }
-  // partie ajouté après correction
+  // partie ajouté après correction :
   carchacrok.getattackPokemon(dracolosse);
 
   if (dracolosse.hp <= 0) {
     console.log(dracolosse.name + "est mort");
     break;
   }
-} //Fin de la partie ajouté après correction
+} //Fin de la partie ajouté après correction.
